@@ -16,7 +16,7 @@ def get_moscow_time():
 @app.route("/")
 def index():
     app.logger.warning("It is a test warning!")
-    time = "Hello world! Time is:" + get_moscow_time().strftime("%H:%M:%S")
+    time = "Hello world!In Moscow, Time is:" + get_moscow_time().strftime("%H:%M:%S")
     return render_template("template.html", time=time)
 
 
