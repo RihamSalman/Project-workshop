@@ -1,5 +1,5 @@
 
-# Python best practices
+# Python best practices بالعربي
 
 The following is a list of best practices for Python that are being followed in this project:
 
